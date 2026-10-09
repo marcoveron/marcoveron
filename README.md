@@ -12,6 +12,14 @@ Asunción, Paraguay · Final-year Computer Engineering student (program taught i
 
 ## Featured
 
+### [wazuh-mcp](https://github.com/marcoveron/wazuh-mcp)
+An MCP server that gives models access to a Wazuh deployment: agent inventory, alert hunting, vulnerabilities, configuration assessment and Active Response.
+
+- One response shape across every tool, with honest totals (it flags when the Indexer stopped counting instead of reporting a capped number as exact).
+- Aggregation tools so a model answers "what happened last night" in one call instead of paging through hundreds of alerts.
+- Write tools are not even registered unless explicitly enabled, with a command allowlist and a guard against fleet-wide actions.
+- Built-in SOC workflows as MCP prompts (shift briefing, alert triage, host investigation, hunting) and 92 tests that run without a Wazuh instance.
+
 ### [soc-analyst-llm-wazuh](https://github.com/marcoveron/soc-analyst-llm-wazuh)
 A local-LLM SOC analyst that reads Wazuh alerts, reasons about them and proposes active responses: block an IP, isolate a host, kill a process.
 
@@ -19,9 +27,6 @@ A local-LLM SOC analyst that reads Wazuh alerts, reasons about them and proposes
 - Every state-changing action pauses the LangGraph agent with an `interrupt` until an operator clicks Authorize or Deny in the Streamlit UI.
 - Tools for alert retrieval, IP reputation (local Wazuh evidence plus AbuseIPDB), indicator enrichment (VirusTotal), fleet status and incident reports.
 - Each decision is written to an append-only audit log.
-
-### Coming next: a Wazuh MCP server
-Gives models access to agent inventory, alert hunting, vulnerabilities, configuration assessment and Active Response through one consistent response shape. Write tools are not even registered unless explicitly enabled.
 
 ## Stack
 
