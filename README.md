@@ -25,9 +25,9 @@ Gives models access to agent inventory, alert hunting, vulnerabilities, configur
 
 ## Stack
 
-**Security:** Wazuh · Suricata · OpenSearch · MITRE ATT&CK · Sigma · YARA
-**AI:** LangChain · LangGraph · Ollama · MCP
-**Engineering:** Python · FastAPI · PostgreSQL · Docker · Linux · n8n
+- **Security:** Wazuh · Suricata · OpenSearch · MITRE ATT&CK · Sigma · YARA
+- **AI:** LangChain · LangGraph · Ollama · MCP
+- **Engineering:** Python · FastAPI · PostgreSQL · Docker · Linux · n8n
 
 ## Also built
 
